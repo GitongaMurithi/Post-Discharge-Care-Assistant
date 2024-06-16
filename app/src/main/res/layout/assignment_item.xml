@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/primary"
+        android:layout_marginVertical="4dp">
+        <TextView
+            android:id="@+id/healthProvider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="5dp"
+            android:text="Health provider"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="start|top"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="2dp"
+            android:src="@drawable/ic_location"/>
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"
+            android:text="Location"
+            android:layout_marginStart="25dp"
+            android:layout_gravity="start|bottom"/>
+        <TextView
+            android:id="@+id/assign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginHorizontal="5dp"
+            android:text="Assign patient"
+            android:layout_gravity="end|center"/>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

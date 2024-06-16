@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Patient Post-discharge</string>
+    <string name="register">Register</string>
+    <string name="register_as">Register as:</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="login_as">Login as:</string>
+    <string name="login1">Login</string>
+    <string name="register_as_resident">Register as Patient</string>
+    <string name="enter_user_name">Enter user name</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="register1">Register</string>
+    <string name="edit_patient_details">Edit patient details</string>
+</resources>

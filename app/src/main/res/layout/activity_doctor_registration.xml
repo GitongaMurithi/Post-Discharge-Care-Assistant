@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".doctor.DoctorRegistration">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Register as Doctor"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textview7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:progress="0"
+            android:max="100"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/LL3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview7"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:hint="Name"
+                android:paddingHorizontal="10dp"
+                android:background="@drawable/edit_text"
+                android:textColorHint="@color/primary"
+                android:textColor="@color/black"
+                android:inputType="text" />
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:hint="Mobile Number"
+                android:paddingHorizontal="10dp"
+                android:background="@drawable/edit_text"
+                android:textColorHint="@color/primary"
+                android:textColor="@color/black"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/edit_text"
+                android:textColorHint="@color/primary"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:hint="Email "
+                android:paddingHorizontal="10dp"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/edit_text"
+                android:textColorHint="@color/primary"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="15dp"
+                android:hint="Specialization"
+                android:paddingHorizontal="10dp"
+                android:inputType="textEmailAddress" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColorHint="@color/primary"
+                app:passwordToggleContentDescription="Toggle password"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="25dp"
+                app:hintEnabled="false"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/editText8"
+                    android:layout_height="45dp"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:inputType="textPassword"
+                    android:layout_gravity="center"
+                    android:paddingVertical="5dp"
+                    android:background="@drawable/edit_text"
+                    android:textColorHint="@color/primary"
+                    android:hint="Password" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/button"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

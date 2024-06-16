@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PatientPostdischarge"
+        tools:targetApi="31">
+        <activity
+            android:name=".doctor.ViewChp"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.AddFinalDetails"
+            android:exported="false" />
+        <activity
+            android:name=".patient.CurrentDetails"
+            android:exported="false" />
+        <activity
+            android:name=".chp.ProgressDetails"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DischargedDetails"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.CurrentPatients"
+            android:exported="false" />
+        <activity
+            android:name=".chp.HealthWorkerRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ConfirmAssignment"
+            android:exported="false" />
+        <activity
+            android:name=".chp.MakeComments"
+            android:exported="false" />
+        <activity
+            android:name=".chp.PatientDetails"
+            android:exported="false" />
+        <activity
+            android:name=".chp.ViewAssignments"
+            android:exported="false" />
+        <activity
+            android:name=".chp.RoleApplication"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ConfirmDismissal"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.AssignCHP"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.PatientDetails"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.AddNewPatient"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DischargedPatients"
+            android:exported="false" />
+        <activity
+            android:name=".common.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".chp.HealthWorkerDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DoctorDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".patient.PatientDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".chp.HealthWorkerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".patient.PatientLogin"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DoctorLogin"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DoctorRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".patient.PatientRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".common.Login"
+            android:exported="false" />
+        <activity
+            android:name=".common.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

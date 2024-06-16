@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "829689719134",
+    "project_id": "post-discharge",
+    "storage_bucket": "post-discharge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829689719134:android:370bcfa91271bd95e6c7cf",
+        "android_client_info": {
+          "package_name": "com.example.patientpost_discharge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIoC0UUfVTqz50Mvzk5tjROaNdKlNSZFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
