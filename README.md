@@ -5,14 +5,14 @@ It’s an essential tool for enhancing patient care and ensuring a smooth transi
 
 ## Features
 ### * User-Friendly Interface:
-    Intuitive Design: A clean, easy-to-navigate interface that simplifies the user experience.
-    Personalized Dashboard: Each user has access to a tailored dashboard displaying their recovery progress, reminders, and messages.
+Intuitive Design: A clean, easy-to-navigate interface that simplifies the user experience.
+Personalized Dashboard: Each user has access to a tailored dashboard displaying their recovery progress, reminders, and messages.
 
 ### * Health Assistant Integration:
-     Personalized Care: Patients are assigned a dedicated health assistant who provides customized support based on their recovery needs.
+Personalized Care: Patients are assigned a dedicated health assistant who provides customized support based on their recovery needs.
 
 ### * Multiple theme support
-    The app supports both light and dark themes
+The app supports both light and dark themes
 
 ## Notes to the user
  * The app requires the user to have a stable internet connection as it interfaces a RESTful API; that is, it gets it's data from a remote server.
